@@ -13,6 +13,6 @@ antidote install obvionaoe/zsh-terraform
 
 ## Features
 
-- [Terraform](https://github.com/hashicorp/terraform) aliases
-- [Terraform](https://github.com/hashicorp/terraform) [zsh](https://www.zsh.org/) autocompletion
+- Terraform aliases
+- Terraform zsh autocompletion
 
