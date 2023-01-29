@@ -1,6 +1,5 @@
 # Terraform zsh Plugin
-A [zsh](https://www.zsh.org/) plugin
-
+A [zsh](https://www.zsh.org/) plugin that adds aliases and tab completion for [Terraform](https://github.com/hashicorp/terraform)
 
 ## Requirements
 
