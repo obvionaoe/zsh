@@ -1,18 +1,12 @@
-# Terraform zsh Plugin
-A [zsh](https://www.zsh.org/) plugin that adds aliases and tab completion for [Terraform](https://github.com/hashicorp/terraform)
+# obvionaoe/zsh
+My personal [zsh](https://www.zsh.org/) framework. Contains plugins for tools I use
 
-## Requirements
+## Plugins
 
-- [Terraform](https://github.com/hashicorp/terraform)
+- [Terraform](./README.md)
 
-## Installation with Antigen
+## Installation with Antidote
 
 ```console
-antidote install obvionaoe/zsh-terraform
+antidote install obvionaoe/zsh
 ```
-
-## Features
-
-- Terraform aliases
-- Terraform zsh autocompletion
-
