@@ -1,9 +1,9 @@
 # obvionaoe/zsh
 My personal [zsh](https://www.zsh.org/) framework. Contains plugins for tools I use
 
-## Plugins
+## [Plugins](./plugins)
 
-- [Terraform](./README.md)
+- [Terraform](./plugins/terraform)
 
 ## Installation with Antidote
 
