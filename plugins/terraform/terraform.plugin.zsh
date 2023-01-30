@@ -44,5 +44,7 @@ alias tft='tf taint'
 alias tfunt='tf untaint'
 
 if (( $+commands[terraform] )); then
-  complete -o nospace -C terraform terraform
+  autoload -U +X bashcompinit && bashcompinit
+  autoload -Uz compinit && compinit
+  complete -o nospace -C /usr/local/bin/terraform terraform
 fi
