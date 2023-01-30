@@ -44,6 +44,6 @@ alias tft='tf taint'
 alias tfunt='tf untaint'
 
 if (( $+commands[terraform] )); then
-  0=${(%):-%N}
-  ln -s ${0:A:h}/_terraform $ZDOTDIR/completions/_terraform
+  autoload -U +X bashcompinit && bashcompinit
+  complete -C terraform _terraform
 fi
