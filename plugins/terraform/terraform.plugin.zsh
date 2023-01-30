@@ -45,5 +45,5 @@ alias tfunt='tf untaint'
 
 if (( $+commands[terraform] )); then
   0=${(%):-%N}
-  ln -s ${0:A:h}/_terraform $ZDOTDIR/plugins/_terraform
+  ln -s ${0:A:h}/_terraform $ZDOTDIR/completions/_terraform
 fi
