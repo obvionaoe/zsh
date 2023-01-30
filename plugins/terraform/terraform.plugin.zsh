@@ -46,5 +46,5 @@ alias tfunt='tf untaint'
 if (( $+commands[terraform] )); then
   autoload -U +X bashcompinit && bashcompinit
   autoload -Uz compinit && compinit
-  complete -o nospace -C /usr/local/bin/terraform terraform
+  complete -o nospace -C terraform terraform
 fi
